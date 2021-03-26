@@ -1,0 +1,33 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Authentication service using node, express, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joschartung/node-auth.git"
+  },
+  "author": "Joseph Schartung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joschartung/node-auth/issues"
+  },
+  "homepage": "https://github.com/joschartung/node-auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
